@@ -1,6 +1,6 @@
 # hse_hw3_chromhmm
 
-## Ссылка на Google Colab:
+## Ссылка на Google Colab: https://colab.research.google.com/drive/1Oj6mYW7BlaLcW-BULgdeeQC3jRHOgDQ2?usp=sharing
 
 Я выбрала клетки Dnd41.
 ### Гистоновые метки:

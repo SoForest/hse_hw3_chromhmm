@@ -18,3 +18,11 @@ H3K9ac | wgEncodeBroadHistoneDnd41H3k09acAlnRep1.bam
 H3K9me3 | wgEncodeBroadHistoneDnd41H3k09me3AlnRep1.bam
 
 Файл с контрольным экспериментом: wgEncodeBroadHistoneDnd41ControlStdAlnRep1.bam
+
+### Картинки из выдачи ChromHMM:
+![emissions_12](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/8b85341c-831f-4ae4-80b9-9ee64a3d38bc)
+![Dnd41_12_overlap](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/a10fb599-58b4-4da5-babd-3d0be5871c35)
+![Dnd41_12_RefSeqTSS_neighborhood](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/b24887db-088f-48d3-a060-d006a5502523)
+![Dnd41_12_RefSeqTES_neighborhood](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/68db1c6b-e1d0-42fc-8279-0ee518f99986)
+![transitions_12](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/989adcab-4839-437a-aa2d-d90bbaad2a69)
+

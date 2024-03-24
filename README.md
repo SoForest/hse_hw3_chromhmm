@@ -49,5 +49,32 @@ H3K9me3 | wgEncodeBroadHistoneDnd41H3k09me3AlnRep1.bam
 11 | Weak_transcribed | H3K4me1, H3K27ac | Может попадать на ядерную ламину, на RefSeq TES | ![Screenshot_20240324_125158](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/ee090e3c-3ea5-4d7e-b0df-8592b082ba61)
 12 | Polycomb-repressed | H3K4me2, H3K4me1 | Попадает как на интроны, так и на экзоны. Может попадать на CpG-островки, на RefSeq TES и RefSeq TSS | ![Screenshot_20240324_124705](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/d0ebc7cf-1a6c-440f-899e-dc236a528abd)
 
+### Бонусное задание:
+```bash
+from google.colab import files
+import os
+
+states = ['Active_Promoter',
+          'Weak_Promoter',
+          'Inactive/poised_Promoter',
+          'Strong_enhancer',
+          'Strong_enhancer',
+          'Weak/poised_enhancer',
+          'Weak/poised_enhancer',
+          'Insulator',
+          'Transcriptional_transition',
+          'Transcriptional_elongation',
+          'Weak_transcribed',
+          'Polycomb-repressed']
+
+with open('Dnd41_12_dense.bed', 'r') as f:
+  with open('Dnd41_12_dense_new.bed', 'a') as new_f:
+    lines = f.readlines()
+    new_f.write(lines[0])
+    for line in lines[1:]:
+        l = line.split('\t')
+        l[3] = l[3] + '_' + states[int(l[3]) - 1]
+        new_f.write('\t'.join(l))
+```
 
 

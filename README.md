@@ -1,6 +1,7 @@
 # hse_hw3_chromhmm
 
 ## Ссылка на Google Colab: https://colab.research.google.com/drive/1Oj6mYW7BlaLcW-BULgdeeQC3jRHOgDQ2?usp=sharing
+Если ссылка не будет работать, то на всякий случай код привожу в файлах "hse_hw3_chromhmm.py" и "hse_hw3_chromhmm.ipynb" в директории src.
 
 Я выбрала клетки Dnd41.
 ### Гистоновые метки:
@@ -25,4 +26,6 @@ H3K9me3 | wgEncodeBroadHistoneDnd41H3k09me3AlnRep1.bam
 ![Dnd41_12_RefSeqTSS_neighborhood](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/b24887db-088f-48d3-a060-d006a5502523)
 ![Dnd41_12_RefSeqTES_neighborhood](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/68db1c6b-e1d0-42fc-8279-0ee518f99986)
 ![transitions_12](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/989adcab-4839-437a-aa2d-d90bbaad2a69)
+
+Далее я выполнила бонусное задание и получившийся новый файл *_dense.bed загрузила в UCSC Genome Browser.
 

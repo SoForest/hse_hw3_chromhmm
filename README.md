@@ -34,7 +34,20 @@ H3K9me3 | wgEncodeBroadHistoneDnd41H3k09me3AlnRep1.bam
 
 ### Эпигенетические типы
 
-Номер | Название | Характерная эпигенетическая метка | Другие свойства
---- | --- | --- | ---
-1 | Active Promoter | 
+Номер | Название | Характерная эпигенетическая метка | Другие свойства | Картинка
+--- | --- | --- | --- | --- 
+1 | Active Promoter | H3K27me3 | Часто находится на ядерной ламине, то есть попадает на участки репрессированного хроматина, попадает как на интроны, так и на экзоны | ![Screenshot_20240324_122501](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/03a53e92-113c-403b-a091-310db1bd7baa)
+2 | Weak Promoter | - | Часто находится на ядерной ламине, то есть попадает на участки репрессированного хроматина, попадает в основном на интроны | ![Screenshot_20240324_122704](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/943a7195-40a0-4d19-9dd3-4fba60311e0a)
+3 | Inactive/poised_Promoter | H3K9me3 | Часто находится на ядерной ламине, то есть попадает на участки репрессированного хроматина | ![Screenshot_20240324_123327](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/735eaf1c-346a-4c6c-8921-502591aec561)
+4 | Strong_enhancer | H3K36me3 | Часто попадает на экзоны, на RefSeq TES | ![Screenshot_20240324_124940](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/5a3e2469-c43f-40e2-8833-2e9638a09709)
+5 | Strong_enhancer | H3K79me2, H3K36me3 | Попадает на экзоны или интроны, на RefSeq TES | ![Screenshot_20240324_125610](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/4a482235-0a03-470f-a1ab-3de5fc86cde0)
+6 | Weak/poised_enhancer | H3K79me2 | Попадает на экзоны или интроны | ![Screenshot_20240324_125856](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/e15a1325-8018-4327-9b9e-ec99c3e66631)
+7 | Weak/poised_enhancer | H3K79me2, H3K4me1, H3K4me2, H3K36me3 | Попадает на экзоны или интроны, на RefSeq TES | ![Screenshot_20240324_130020](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/c923cf71-17c9-4132-a666-d4a87ff7dd64)
+8 | Insulator | H3K27ac, H3K9ac, H3K4me3, H3K4me2, H3K4me1, H3K79me2| Попадает на CpG-островки, часто на экзоны, на RefSeq TES, RefSeq TSS | ![Screenshot_20240324_130210](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/254a05c7-17c0-4dfc-80ad-c923740ed69e)
+9 | Transcriptional_transition |
+10 | Transcriptional_elongation |
+11 | Weak_transcribed | H3K4me1, H3K27ac | Может попадать на ядерную ламину, на RefSeq TES | ![Screenshot_20240324_125158](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/ee090e3c-3ea5-4d7e-b0df-8592b082ba61)
+12 | Polycomb-repressed | H3K4me2, H3K4me1 | Попадает как на интроны, так и на экзоны. Может попадать на CpG-островки, на RefSeq TES и RefSeq TSS | ![Screenshot_20240324_124705](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/d0ebc7cf-1a6c-440f-899e-dc236a528abd)
+
+
 

@@ -28,4 +28,13 @@ H3K9me3 | wgEncodeBroadHistoneDnd41H3k09me3AlnRep1.bam
 ![transitions_12](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/989adcab-4839-437a-aa2d-d90bbaad2a69)
 
 Далее я выполнила бонусное задание и получившийся новый файл *_dense.bed загрузила в UCSC Genome Browser.
+### Выбрала нужный тип клеток и гистоновые метки:
+![Screenshot_20240324_112933](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/01e16917-e837-4b49-8461-c2f36222f580)
+![Screenshot_20240324_113010](https://github.com/SoForest/hse_hw3_chromhmm/assets/145841508/16bc169d-2b2e-4128-a776-86006ca4bfcf)
+
+### Эпигенетические типы
+
+Номер | Название | Характерная эпигенетическая метка | Другие свойства
+--- | --- | --- | ---
+1 | Active Promoter | 
 
